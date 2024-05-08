@@ -1,0 +1,67 @@
+body {
+    font-family: "Raleway", sans-serif; /* Fallback font */
+    font-size: 1.5em;
+    line-height: 1.5; /* Improves readability */
+    text-align: center;
+    background-image: url('/static/bg_ia2.jpeg'); /* Background image URL */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7); /* Transparent white background */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px auto; /* Center the containers horizontally */
+    max-width: 600px; /* Set maximum width for the containers */
+}
+
+img {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd; /* Subtle border */
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+label {
+    margin: 25px 5px;
+    display: inline-block; /* Allows styling next to elements */
+    font-weight: bold;
+    color: yellow; /* Change text color to yellow */
+}
+
+#add_btn, #remove_btn, #update_btn {
+    background-color: grey; /* Change button background color to grey */
+    color: black; /* Change button text color to black */
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid #302B29;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; /* Smooth hover transition */
+}
+
+#remove_btn {
+    background-color: grey; /* Change delete button background color to grey */
+}
+
+#add_btn:hover {
+    background-color: #01A88A;
+    color: white;
+}
+
+#remove_btn:hover, #update_btn:hover {
+    background-color: lightcoral; /* Reddish hover color */
+}
+
+select, input[type="text"] {
+    font-family: "Raleway", sans-serif;
+    font-size: 0.85em;
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+    padding: 5px 0;
+    border: 2px solid grey; /* Change typing boxes border color to grey */
+    border-radius: 5px; /* Rounded corners */
+}
